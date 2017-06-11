@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,900');
+body, html{
+  height:100%;
+}
+
+body{
+  background-image: url(https://gallery.mailchimp.com/8235f94dbdd8c42511c1f5e43/images/76bd223e-47c2-4530-9b23-9f69634deee4.png)
+}
+
+a{
+  text-decoration: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 45px;
+  color: #414042;
+}
+
+.box{
+  margin-top:40px;
+  border-radius:15px;
+  min-width: 700px;
+  height: 300px;
+  background-color: #EE4266;
+-webkit-box-shadow: 0px 0px 119px -20px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 119px -20px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 119px -20px rgba(0,0,0,0.75);  
+}
+
+.quote-wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.quote-wrapper p {
+  font-family:Raleway;
+  color: white;
+  font-size: 25px;
+  line-height: 140%;
+}
+
+.twitter{
+  margin-top: 20px;
+  margin-bottom:40px;
+}
+
+.twitter img {
+  width: 50px;
+}
+
+.circle {
+  background-color:white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: -80px;
+  left: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle:hover{
+    -webkit-box-shadow: 0px 0px 119px -20px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 119px -20px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 119px -20px rgba(0,0,0,0.75);  
+}
+
+.circle p {
+  font-family:Raleway;
+  font-weight: 900;
+  color: #EE4266;
+  font-size: 15px;
+}
+
+.quote {
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-bottom: 40px;
+}
+
+.footer{
+
+}
+.footer p {
+  margin: 5px;
+  font-family:Raleway;
+  text-align: center;
+  color:#657786;
+}
+
+.logos {
+  width: 30px;
+}
